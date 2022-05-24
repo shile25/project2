@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.container{
+    padding: 1.5em;
+    height: 97vh;
+}
+.main-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.subheader{
+    width: 100%;
+}
+h4{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+p{
+    width: 100%;
+    font-size: .8rem;
+    
+}
+img{
+    width: 50%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+h1{
+    width: 100%;
+    font-size: .8rem;
+}
+.text{
+    font-size: .5rem;
+    font-weight: 500;
+    position: absolute;
+    top:7.8rem;
+    left:-4rem;
+    transform: rotate(90deg);
+}
+.text-1{
+    font-size: .5rem;
+    position: absolute;
+    top: 9.8rem;
+    left:4.6rem ;
+    transform: rotate(90deg);
+}
+.text-2{
+    font-size: .5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top:18.5rem ;
+    left: -4rem;
+}
+.text-3{
+    font-size: .5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 20.5rem;
+    left:4.6rem ;
+}
+.text-4{
+    font-size: .5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -4rem;
+    top: 29.1rem;
+}
+.text-5{
+    font-size: .5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 31.1rem;
+    left: 4.6rem;
+}
+.card-2{
+    margin-top: 2rem;
+}
+.card-4{
+    margin-top: 2rem;
+}
+.card-6{
+    margin-top: 2rem;
+}
+.paragraph{
+    color: gray;
+    word-spacing: .2rem;
+}
+span{
+    text-decoration: underline;
+    font-size: .8rem;
+    font-weight: 400;
+}
+@media (min-width:920px){
+ .container{
+     width: 100%;
+ }
+  }  
+}
